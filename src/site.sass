@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap')
+
+$light-green: #00ff99
+$dark-green: #12b372
+$light-orange: #f1b331
+$dark-orange: #b37f09
+$pink: #c819ff
+
+.hide-sm
+    display: initial
+
+.show-sm
+    display: none
+
+::selection
+    background-color: rgba($pink, .5)
+
+html
+    scroll-behavior: smooth
+
+body
+    margin: 0
+    font-family: 'Raleway', sans-serif
+
+button
+    border: 0
+    border-radius: 3px
+    background-color: $pink
+    padding: 4px 8px
+    color: white
+    font-size: 1rem
+    position: relative
+    top: 0
+    cursor: pointer
+    filter: drop-shadow(0 0 5px rgba(black, .15))
+
+    &:active
+        top: 1px
+        filter: drop-shadow(0 0 0 transparent)
+
+@import 'main'
+
+@import 'projects'
+
+.background
+    position: fixed
+    top: 0
+    width: 100%
+    height: 100%
+    object-fit: cover
+    filter: brightness(40%)
+    z-index: -1
+
+.popup
+    display: block
+    position: fixed
+    background-color: white
+    border-radius: 5px
+    padding: 5px 10px
+    width: 50%
+    box-shadow: 0 0 0 200vw rgba(black, .6)
+    z-index: 1
+
+    h3
+        color: black
+        text-align: left
+        font-size: 1.5rem
+        margin: .5rem 0
+
+    input
+        display: block
+        color: black
+        margin: 0 auto
+        border: 0
+        padding: 0
+        font-size: 1rem
+        width: 18ex
+        background-color: transparent
+
+    .close
+        background-color: transparent
+        color: #888
+        font-size: 2rem
+        position: absolute
+        right: 10px
+        top: 5px
+        padding: 0
+        cursor: pointer
+
+        &:hover
+            color: #333
+
+        &:active
+            color: #111
+            top: 6px
+
+    #copy
+        margin-top: 10px
+
+        &:hover
+            filter: brightness(110%)
+
+        &:active
+            filter: brightness(90%)
+
+    label
+        display: block
+        position: absolute
+        top: 1.5rem
+        width: 7ex
+        margin: 2px auto
+        background-color: rgba(black, .7)
+        color: white
+        padding: 2px
+        border-radius: 4px
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+
+.hide
+    display: none !important
+
+@keyframes arrow-jump
+    0%
+        bottom: 10px
+    85%
+        bottom: 10px
+    100%
+        bottom: 15px
+
+@import 'media'

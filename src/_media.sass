@@ -1,0 +1,27 @@
+@media only screen and (max-width: 960px)
+    #main
+        h1
+            font-size: 2rem
+        h2
+            font-size: 1.5rem
+
+@media only screen and (max-width: 540px)
+    .hide-sm
+        display: none
+
+    .show-sm
+        display: initial
+
+    #projects
+        .card
+            max-width: 520px
+            width: 90%
+
+            img.show-sm
+                display: block
+                margin: 0 auto .5rem auto
+
+// for people who suffer from motion sickness
+@media (prefers-reduced-motion: reduce)
+  html
+    scroll-behavior: auto
