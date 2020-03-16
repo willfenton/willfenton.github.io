@@ -3,7 +3,7 @@
         {
             "title": "Identicon Generator",
             "description": "This Identicon generator uses and pseudo-random hash to to generate images. It takes a hash to plot points on an image, then uses nearest neighbors algorithm on each pixel to give it a random color. The thumbnail for this project was made with the string \"identicon\". This was made in collaboration with Will Fenton.",
-            "thumbnail_url": "identicon.png",
+            "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
             "tags": [
                 "python",
