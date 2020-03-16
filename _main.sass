@@ -1,0 +1,55 @@
+#main
+    color: white
+    text-align: center
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    h1, h2
+        margin: .2rem
+        text-shadow: 0 0 .1em black
+    
+    h1
+        font-size: 4rem
+
+    h2
+        font-size: 2rem
+        color: #ddd
+
+    ul
+        list-style: none
+        padding: 0
+
+        li
+            float: left
+
+            a
+                $size: 32px
+                min-width: $size
+                height: $size
+                margin: 0 5px
+                display: block
+                background-color: white
+                border-radius: $size / 2;
+                display: flex
+                align-items: center
+                justify-content: center
+                text-decoration-line: none
+                color: black
+                cursor: pointer
+
+                i::before
+                    font-size: 1.3rem
+
+    #arrow
+        position: absolute
+        bottom: 10px
+        color: white
+        font-size: 3rem
+        text-shadow: 0 0 .1em black
+        animation: arrow-jump 2000ms ease 0ms infinite alternate running
+
+        img
+            width: 100%
