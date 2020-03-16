@@ -11,12 +11,10 @@ var vm = new Vue({
     },
     methods: {
         fetchProjects: function() {
-            console.log(this.projects_url);
             fetch(this.projects_url)
                 .then(response => response.json())
                 .then(json => {
-                    console.log(json);
-                    this.projects = json["projects"];
+                    this.projects = json.projects;
                 });
         }
     }
