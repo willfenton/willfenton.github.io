@@ -2,12 +2,104 @@
     "projects": [
         {
             "title": "Identicon Generator",
-            "description": "This Identicon generator uses and pseudo-random hash to to generate images. It takes a hash to plot points on an image, then uses nearest neighbors algorithm on each pixel to give it a random color. The thumbnail for this project was made with the string \"identicon\". This was made in collaboration with Will Fenton.",
+            "description": "Identicon Generator",
             "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
             "tags": [
-                "python",
+                "Python",
                 "PIL"
+            ]
+        },
+        {
+            "title": "SolarSim",
+            "description": "Solar System Simulator",
+            "thumbnail_url": "data/images/thumbnail/solarsim.png",
+            "source_url": "https://github.com/ualberta-spacebar/SolarSim",
+            "demo_url": "https://ualberta-spacebar.github.io/SolarSim/",
+            "tags": [
+                "JavaScript",
+                "Canvas",
+                "Simulation"
+            ]
+        },
+        {
+            "title": "Last.fm Data Tool",
+            "description": "View your last.fm listening data",
+            "thumbnail_url": "data/images/thumbnail/lastfm-data-tool.png",
+            "source_url": "https://github.com/willfenton/Last.fm-Data-Tool",
+            "tags": [
+                "Python",
+                "PyQT",
+                "Last.fm",
+                "Data Analysis"
+            ]
+        },
+        {
+            "title": "Canadian Armed Forces in WW1",
+            "description": "Data visualization of the Canadian war effort in the First World War.",
+            "thumbnail_url": "data/images/thumbnail/ww1-cafmap.png",
+            "source_url": "https://github.com/giancarlopernudisegura/ww1-cafmap",
+            "demo_url": "https://giancarlopernudisegura.github.io/ww1-cafmap/",
+            "tags": [
+                "JavaScript",
+                "Python",
+                "Data Visualization"
+            ]
+        },
+        {
+            "title": "MovieGuru",
+            "description": "Website for comparing movies",
+            "thumbnail_url": "data/images/thumbnail/movieguru.png",
+            "source_url": "https://github.com/willfenton/MovieGuru",
+            "demo_url": "https://willfenton.github.io/MovieGuru/",
+            "tags": [
+                "JavaScript",
+                "Python"
+            ]
+        },
+        {
+            "title": "BetaStar",
+            "description": "StarCraft II AI, won in a tournament against 8 other bots.",
+            "thumbnail_url": "data/images/thumbnail/betastar.png",
+            "source_url": "https://github.com/willfenton/BetaStar",
+            "video_url": "https://youtu.be/4AHjDSnfI4Q",
+            "tags": [
+                "C++",
+                "AI",
+                "StarCraft II"
+            ]
+        },
+        {
+            "title": "Are you smarter than an AI?",
+            "description": "Healthcare in AI demo, allows users to compete against a model in diagnosing skin cancer.",
+            "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
+            "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
+            "tags": [
+                "Python",
+                "Machine Learning",
+                "Flask",
+                "JavaScript",
+                "fast.ai"
+            ]
+        },
+        {
+            "title": "InfiniMood",
+            "description": "Android app for tracking your mood.",
+            "thumbnail_url": "data/images/thumbnail/infinimood.png",
+            "source_url": "https://github.com/CMPUT301F19T05/InfiniMood",
+            "tags": [
+                "Java",
+                "Android",
+                "Firestore"
+            ]
+        },
+        {
+            "title": "Tic Tac Toe",
+            "description": "Command line Tic Tac Toe game written in C++",
+            "thumbnail_url": "data/images/thumbnail/tictactoe.png",
+            "source_url": "https://github.com/willfenton/TicTacToe",
+            "tags": [
+                "C++"
             ]
         }
     ]
