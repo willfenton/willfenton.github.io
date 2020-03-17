@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Identicon Generator",
-            "description": "Identicon Generator",
+            "description": "Given a string, such as a username, generates a unique image (Identicon) for that username, which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
             "tags": [
@@ -12,7 +12,7 @@
         },
         {
             "title": "SolarSim",
-            "description": "Solar System Simulator",
+            "description": "A physically accurate orbital simulation of a planetary system, with a single star and any number of planets. I worked on the JavaScript code for simulating the physics, and also did the animation using HTML5 Canvas, which was also used to create the animation for my website! This project was made for the Nasa Space Apps Challenge, a space-themed hackathon, with my friends Giancarlo Pernudi, Dylan Hanna, and Jawad Rizvi.",
             "thumbnail_url": "data/images/thumbnail/solarsim.png",
             "source_url": "https://github.com/ualberta-spacebar/SolarSim",
             "demo_url": "https://ualberta-spacebar.github.io/SolarSim/",
@@ -24,7 +24,7 @@
         },
         {
             "title": "Last.fm Data Tool",
-            "description": "View your last.fm listening data",
+            "description": "A desktop application that downloads your music listening data from Last.fm, and allows you to view and analyze it in ways which Last.fm does not allow. I made this because I was frustrated at how limited the analytics on Last.fm were, given the treasure trove of data that they have available (records of every song you listened to and when). An example of such a feature is a collage generator, which allows you to create a collage of album art from your most listened to albums. Supports multiple users. Written in Python, using PyQT for the UI.",
             "thumbnail_url": "data/images/thumbnail/lastfm-data-tool.png",
             "source_url": "https://github.com/willfenton/Last.fm-Data-Tool",
             "tags": [
@@ -36,7 +36,7 @@
         },
         {
             "title": "Canadian Armed Forces in WW1",
-            "description": "Data visualization of the Canadian war effort in the First World War.",
+            "description": "An interactive data visualization of the Canadian war effort in the First World War. We used a dataset that contained a list of soldiers, their date of death, and burial location, transformed it to a geojson file, and then plotted it on a map. Users can scroll for every month and see the deadliest battles each month. Made in collaboration with Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/ww1-cafmap.png",
             "source_url": "https://github.com/giancarlopernudisegura/ww1-cafmap",
             "demo_url": "https://giancarlopernudisegura.github.io/ww1-cafmap/",
@@ -48,7 +48,7 @@
         },
         {
             "title": "MovieGuru",
-            "description": "Website for comparing movies",
+            "description": "Have you ever had trouble deciding on a movie to watch, and wanted a way to easily compare them side by side? Well look no further, MovieGuru does exactly that! Enter a list of movies, and out comes all the metrics you could every want to make your decision. I wrote most of the JavaScript for the app. Placed third in the LevelUp hackathon.",
             "thumbnail_url": "data/images/thumbnail/movieguru.png",
             "source_url": "https://github.com/willfenton/MovieGuru",
             "demo_url": "https://willfenton.github.io/MovieGuru/",
@@ -59,7 +59,7 @@
         },
         {
             "title": "BetaStar",
-            "description": "StarCraft II AI, won in a tournament against 8 other bots.",
+            "description": "A bot for the game StarCraft II, written in C++ using the SC2 API. Tt=he clear successor to DeepMind's AlphaStar, BetaStar is a Protoss bot, and employs a brutal Stalker rush with perfect Blink micro to overwhelm the enemy. BetaStar placed first out of 9 bots in a round robin tournament! Made for a project in my Game AI course.",
             "thumbnail_url": "data/images/thumbnail/betastar.png",
             "source_url": "https://github.com/willfenton/BetaStar",
             "video_url": "https://youtu.be/4AHjDSnfI4Q",
@@ -71,7 +71,7 @@
         },
         {
             "title": "Are you smarter than an AI?",
-            "description": "Healthcare in AI demo, allows users to compete against a model in diagnosing skin cancer.",
+            "description": "Compare your accuracy in diagnosing Skin Cancer to a trained image classification model. This was made as a demo for our club (the Undergraduate AI Society) for an AI in Medicine symposium. We took a pre-trained resnet50 model and fine-tuned it on a skin cancer dataset, then I wrote the web app to allow users to compete against it. We used fast.ai as our deep learning library of choice, and Flask for the web app. Made in collaboration with Peter Friedrich and Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
             "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
             "tags": [
@@ -84,7 +84,7 @@
         },
         {
             "title": "InfiniMood",
-            "description": "Android app for tracking your mood.",
+            "description": "An Android app for tracking your mood and emotions over time. Attach locations and images to your moods, and follow your friends to see their recent mood events. Written in Java, and using Google Firestore for our cloud database. Made as a project in my Software Engineering course.",
             "thumbnail_url": "data/images/thumbnail/infinimood.jpg",
             "source_url": "https://github.com/CMPUT301F19T05/InfiniMood",
             "tags": [
@@ -95,7 +95,7 @@
         },
         {
             "title": "Tic Tac Toe",
-            "description": "Command line Tic Tac Toe game written in C++",
+            "description": "A simple command line Tic Tac Toe game I wrote to practice C++ as I was learning it. Play against a human, random player, or unbeatable Minimax algorithm. ",
             "thumbnail_url": "data/images/thumbnail/tictactoe.png",
             "source_url": "https://github.com/willfenton/TicTacToe",
             "tags": [
