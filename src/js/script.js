@@ -83,10 +83,17 @@ class Line {
         this.y += this.dy * this.speed;
     }
 
-    inView() {
+    outOfView() {
         let start_x = this.x - (this.dx * this.length);
         let end_x = this.x;
-        return ((start_x >= 0 && start_x <= canvas.width) || (end_x >= 0 && end_x <= canvas.width)) ? true : false;
+
+        if (start_x < 0 && end_x < 0) {
+            return true;
+        }
+        if (start_x > canvas.width && end_x > canvas.width) {
+            return true;
+        }
+        return false;
     }
 }
 
@@ -114,7 +121,7 @@ function animate() {
     c.clearRect(0, 0, canvas.width, canvas.height);
 
     // remove objects out of view
-    objects = objects.filter(o => o.inView())
+    objects = objects.filter(o => !o.outOfView())
 
     // draw objects
     for (var o of objects) {
