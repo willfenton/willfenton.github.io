@@ -7,10 +7,6 @@
   display: none;
 }
 
-::-moz-selection {
-  background-color: rgba(200, 25, 255, 0.5);
-}
-
 ::selection {
   background-color: rgba(200, 25, 255, 0.5);
 }
@@ -21,7 +17,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 button {
@@ -34,58 +30,40 @@ button {
   position: relative;
   top: 0;
   cursor: pointer;
-  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.15));
 }
-
 button:active {
   top: 1px;
-  -webkit-filter: drop-shadow(0 0 0 transparent);
-          filter: drop-shadow(0 0 0 transparent);
+  filter: drop-shadow(0 0 0 transparent);
 }
 
 #main {
   color: white;
   text-align: center;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 #main h1, #main h2 {
-  margin: .2rem;
-  text-shadow: 0 0 .1em black;
+  margin: 0.2rem;
+  text-shadow: 0 0 0.1em black;
 }
-
 #main h1 {
   font-size: 4rem;
 }
-
 #main h2 {
   font-size: 2rem;
   color: #ddd;
 }
-
 #main ul {
   list-style: none;
   padding: 0;
 }
-
 #main ul li {
   float: left;
 }
-
 #main ul li a {
   min-width: 32px;
   height: 32px;
@@ -93,35 +71,24 @@ button:active {
   display: block;
   background-color: white;
   border-radius: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  align-items: center;
+  justify-content: center;
+  text-decoration-line: none;
   color: black;
   cursor: pointer;
 }
-
 #main ul li a i::before {
   font-size: 1.3rem;
 }
-
 #main #arrow {
   position: absolute;
   bottom: 10px;
   color: white;
   font-size: 3rem;
-  text-shadow: 0 0 .1em black;
-  -webkit-animation: arrow-jump 2000ms ease 0ms infinite alternate running;
-          animation: arrow-jump 2000ms ease 0ms infinite alternate running;
+  text-shadow: 0 0 0.1em black;
+  animation: arrow-jump 2000ms ease 0ms infinite alternate running;
 }
-
 #main #arrow img {
   width: 100%;
 }
@@ -131,11 +98,9 @@ button:active {
   padding: 10px 0;
   background-color: whitesmoke;
 }
-
 #projects h1 {
   text-align: center;
 }
-
 #projects .card {
   background-color: white;
   margin: 20px auto;
@@ -144,86 +109,62 @@ button:active {
   border: 0.5px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   padding: 10px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 #projects .card img {
   width: 200px;
   height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 0 50%;
-     object-position: 0 50%;
+  object-fit: cover;
+  object-position: 0 50%;
   border-radius: 3px;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
 }
-
 #projects .card .divider {
   margin: 0 10px;
   display: block;
   width: 1px;
   height: 200px;
   background-color: rgba(0, 0, 0, 0.1);
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
-
 #projects .card .content {
   padding: 10px;
 }
-
 #projects .card .content .tag {
   display: inline-block;
   margin-bottom: 5px;
   margin-right: 0.5em;
-  background: -webkit-gradient(linear, left top, right bottom, from(#00ff99), to(#12b372));
   background: linear-gradient(to bottom right, #00ff99 0%, #12b372 100%);
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 900;
-  padding: .2em .75em;
+  padding: 0.2em 0.75em;
   border-radius: 10px;
   color: white;
 }
-
 #projects .card .content a {
   display: inline-block;
   position: relative;
   top: 0;
   border-radius: 5px;
   color: white;
-  margin: .2rem .4rem;
-  padding: .5rem 1rem;
+  margin: 0.2rem 0.4rem;
+  padding: 0.5rem 1rem;
   background-color: #f1b331;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   cursor: pointer;
   font-weight: 600;
 }
-
 #projects .card .content a:hover {
-  -webkit-filter: brightness(110%);
-          filter: brightness(110%);
+  filter: brightness(110%);
 }
-
 #projects .card .content a:active {
   background-color: #b37f09;
   top: 1px;
 }
-
 #projects .card .content a.private {
   background-color: grey;
   cursor: not-allowed;
@@ -234,10 +175,8 @@ button:active {
   top: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
+  object-fit: cover;
+  filter: brightness(40%);
   z-index: -1;
 }
 
@@ -254,15 +193,9 @@ button:active {
   margin-left: 1em;
   margin-top: 0.5em;
   margin-bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
+  flex-direction: row;
+  align-content: space-between;
 }
 
 .popup {
@@ -272,18 +205,15 @@ button:active {
   border-radius: 5px;
   padding: 5px 10px;
   width: 50%;
-  -webkit-box-shadow: 0 0 0 200vw rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 0 200vw rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 200vw rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
-
 .popup h3 {
   color: black;
   text-align: left;
   font-size: 1.5rem;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
-
 .popup input {
   display: block;
   color: black;
@@ -294,7 +224,6 @@ button:active {
   width: 18ex;
   background-color: transparent;
 }
-
 .popup .close {
   background-color: transparent;
   color: #888;
@@ -305,30 +234,22 @@ button:active {
   padding: 0;
   cursor: pointer;
 }
-
 .popup .close:hover {
   color: #333;
 }
-
 .popup .close:active {
   color: #111;
   top: 6px;
 }
-
 .popup #copy {
   margin-top: 10px;
 }
-
 .popup #copy:hover {
-  -webkit-filter: brightness(110%);
-          filter: brightness(110%);
+  filter: brightness(110%);
 }
-
 .popup #copy:active {
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
+  filter: brightness(90%);
 }
-
 .popup label {
   display: block;
   position: absolute;
@@ -349,18 +270,6 @@ button:active {
   display: none !important;
 }
 
-@-webkit-keyframes arrow-jump {
-  0% {
-    bottom: 10px;
-  }
-  85% {
-    bottom: 10px;
-  }
-  100% {
-    bottom: 15px;
-  }
-}
-
 @keyframes arrow-jump {
   0% {
     bottom: 10px;
@@ -372,7 +281,6 @@ button:active {
     bottom: 15px;
   }
 }
-
 @media only screen and (max-width: 960px) {
   #main h1 {
     font-size: 2rem;
@@ -381,27 +289,28 @@ button:active {
     font-size: 1.5rem;
   }
 }
-
 @media only screen and (max-width: 540px) {
   .hide-sm {
     display: none;
   }
+
   .show-sm {
     display: initial;
   }
+
   #projects .card {
     max-width: 520px;
     width: 90%;
   }
   #projects .card img.show-sm {
     display: block;
-    margin: 0 auto .5rem auto;
+    margin: 0 auto 0.5rem auto;
   }
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
 }
+
 /*# sourceMappingURL=site.css.map */
