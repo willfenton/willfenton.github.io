@@ -85,7 +85,7 @@
         {
             "title": "InfiniMood",
             "description": "Android app for tracking your mood.",
-            "thumbnail_url": "data/images/thumbnail/infinimood.png",
+            "thumbnail_url": "data/images/thumbnail/infinimood.jpg",
             "source_url": "https://github.com/CMPUT301F19T05/InfiniMood",
             "tags": [
                 "Java",
