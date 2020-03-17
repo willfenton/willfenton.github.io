@@ -48,6 +48,17 @@
             ]
         },
         {
+            "title": "Function Visualizer",
+            "description": "A function graphing tool made using JavaScript and HTML5 Canvas. It works by sampling many points along the X-axis and plotting them. Supports multiple functions, dragging, and zooming. Currently only supports 2D, with 3D support planned for the future. Made in collaboration with Giancarlo Pernudi.",
+            "thumbnail_url": "data/images/thumbnail/functionvisualizer.png",
+            "source_url": "https://github.com/willfenton/FunctionVisualizer",
+            "demo_url": "https://willfenton.github.io/FunctionVisualizer/2D/",
+            "tags": [
+                "JavaScript",
+                "Canvas"
+            ]
+        },
+        {
             "title": "MovieGuru",
             "description": "Have you ever had trouble deciding on a movie to watch, and wanted a way to easily compare them side by side? Well look no further, MovieGuru does exactly that! Enter a list of movies, and out comes all the metrics you could every want to make your decision. I wrote most of the JavaScript for the app. Placed third in the LevelUp hackathon.",
             "thumbnail_url": "data/images/thumbnail/movieguru.png",
