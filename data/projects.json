@@ -1,16 +1,6 @@
 {
     "projects": [
         {
-            "title": "Identicon Generator",
-            "description": "Given a string, such as a username, generates a unique image (Identicon) for that username, which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
-            "thumbnail_url": "data/images/thumbnail/identicon.png",
-            "source_url": "https://github.com/willfenton/Identicon",
-            "tags": [
-                "Python",
-                "PIL"
-            ]
-        },
-        {
             "title": "SolarSim",
             "description": "A physically accurate orbital simulation of a planetary system, with a single star and any number of planets. I worked on the JavaScript code for simulating the physics, and also did the animation using HTML5 Canvas, which was also used to create the animation for my website! This project was made for the Nasa Space Apps Challenge, a space-themed hackathon, with my friends Giancarlo Pernudi, Dylan Hanna, and Jawad Rizvi.",
             "thumbnail_url": "data/images/thumbnail/solarsim.png",
@@ -20,6 +10,19 @@
                 "JavaScript",
                 "Canvas",
                 "Simulation"
+            ]
+        },
+        {
+            "title": "Are you smarter than an AI?",
+            "description": "Compare your accuracy in diagnosing Skin Cancer to a trained image classification model. This was made as a demo for our club (the Undergraduate AI Society) for an AI in Medicine symposium. We took a pre-trained resnet50 model and fine-tuned it on a skin cancer dataset, then I wrote the web app to allow users to compete against it. We used fast.ai as our deep learning library of choice, and Flask for the web app. Made in collaboration with Peter Friedrich and Giancarlo Pernudi.",
+            "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
+            "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
+            "tags": [
+                "Python",
+                "Machine Learning",
+                "Flask",
+                "JavaScript",
+                "fast.ai"
             ]
         },
         {
@@ -35,15 +38,13 @@
             ]
         },
         {
-            "title": "Canadian Armed Forces in WW1",
-            "description": "An interactive data visualization of the Canadian war effort in the First World War. We used a dataset that contained a list of soldiers, their date of death, and burial location, transformed it to a geojson file, and then plotted it on a map. Users can scroll for every month and see the deadliest battles each month. Made in collaboration with Giancarlo Pernudi.",
-            "thumbnail_url": "data/images/thumbnail/ww1-cafmap.png",
-            "source_url": "https://github.com/giancarlopernudisegura/ww1-cafmap",
-            "demo_url": "https://giancarlopernudisegura.github.io/ww1-cafmap/",
+            "title": "Identicon Generator",
+            "description": "Given a string, such as a username, generates a unique icon (Identicon), which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
+            "thumbnail_url": "data/images/thumbnail/identicon.png",
+            "source_url": "https://github.com/willfenton/Identicon",
             "tags": [
-                "JavaScript",
                 "Python",
-                "Data Visualization"
+                "PIL"
             ]
         },
         {
@@ -70,16 +71,15 @@
             ]
         },
         {
-            "title": "Are you smarter than an AI?",
-            "description": "Compare your accuracy in diagnosing Skin Cancer to a trained image classification model. This was made as a demo for our club (the Undergraduate AI Society) for an AI in Medicine symposium. We took a pre-trained resnet50 model and fine-tuned it on a skin cancer dataset, then I wrote the web app to allow users to compete against it. We used fast.ai as our deep learning library of choice, and Flask for the web app. Made in collaboration with Peter Friedrich and Giancarlo Pernudi.",
-            "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
-            "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
+            "title": "Canadian Armed Forces in WW1",
+            "description": "An interactive data visualization of the Canadian war effort in the First World War. We used a dataset that contained a list of soldiers, their date of death, and burial location, transformed it to a geojson file, and then plotted it on a map. Users can scroll for every month and see the deadliest battles each month. Made in collaboration with Giancarlo Pernudi.",
+            "thumbnail_url": "data/images/thumbnail/ww1-cafmap.png",
+            "source_url": "https://github.com/giancarlopernudisegura/ww1-cafmap",
+            "demo_url": "https://giancarlopernudisegura.github.io/ww1-cafmap/",
             "tags": [
-                "Python",
-                "Machine Learning",
-                "Flask",
                 "JavaScript",
-                "fast.ai"
+                "Python",
+                "Data Visualization"
             ]
         },
         {
