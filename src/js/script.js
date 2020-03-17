@@ -7,15 +7,10 @@ var vm = new Vue({
         }
     },
     created() {
-        this.fetchProjects();
-    },
-    methods: {
-        fetchProjects: function() {
-            fetch(this.projects_url)
-                .then(response => response.json())
-                .then(json => {
-                    this.projects = json.projects;
-                });
-        }
+        fetch(this.projects_url)
+            .then(response => response.json())
+            .then(json => {
+                this.projects = json.projects;
+            });
     }
 })

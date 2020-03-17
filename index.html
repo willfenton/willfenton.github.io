@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="data/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="data/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="data/favicon/favicon-16x16.png">
-    
+
     <script defer src="src/js/script.js"></script>
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
@@ -33,7 +33,17 @@
                     <a href="https://www.linkedin.com/in/will-fenton-b155281a2/" target="blank">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                </li>        
+                </li>
+                <li>
+                    <a href="data/resume.pdf" target="blank">
+                        <i class="fas fa-file-pdf"></i>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="window.prompt('Copy to clipboard: Ctrl+C, Enter', 'wfenton@ualberta.ca')">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
             </ul>
             <a id="arrow" href="#projects">
                 <i class="fas fa-angle-double-up"></i>
@@ -50,12 +60,12 @@
                     <p>{{ project.description }}</p>
                     <a v-if="Object.keys(project).includes('demo_url')" v-bind:href='project.demo_url' target="blank">
                         <i class='fas fa-eye'></i> Live Demo </a>
-                    <a v-if="Object.keys(project).includes('source_url')" v-bind:href="project.source_url" target="blank"> 
-                        <i class="fas fa-code"></i> Source Code 
+                    <a v-if="Object.keys(project).includes('source_url')" v-bind:href="project.source_url" target="blank">
+                        <i class="fas fa-code"></i> Source Code
                     </a>
                 </div>
             </div>
-        </section>        
+        </section>
     </div>
 </body>
 </html>
