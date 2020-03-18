@@ -178,7 +178,7 @@ var canvas = document.querySelector("#canvas");
 // used to draw on the canvas
 var c = canvas.getContext("2d");
 
-var randomAngle = true;
+var randomAngle = false;
 console.log("Try setting randomAngle = true ;)");
 
 var ax = randRange(0.5, 1);
