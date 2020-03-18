@@ -23,7 +23,7 @@ function randRange(min, max) {
 // Canvas
 class Line {
     constructor() {
-        this.velocity = 5;
+        this.velocity = 4;
 
         // Angle vector
         if (randomAngle) {
@@ -31,14 +31,16 @@ class Line {
             this.ay = randRange(0, 1);
         }
         else {
-            if (Math.random() > 0.5) {
-                this.ax = ax;
-                this.ay = ay;
-            }
-            else {
-                this.ax = ay;
-                this.ay = ax;
-            }
+	    this.ax = ax;
+            this.ay = ay;
+	    //if (Math.random() > 0.5) {
+	    //    this.ax = ax;
+            //    this.ay = ay;
+            //}
+            //else {
+            //    this.ax = ay;
+            //    this.ay = ax;
+            //}
         }
 
         // Normalize
@@ -170,10 +172,11 @@ var canvas = document.querySelector("#canvas");
 // used to draw on the canvas
 var c = canvas.getContext("2d");
 
-var randomAngle = true;
+var randomAngle = false;
+console.log("Try setting randomAngle = true ;)");
 
-var ax = randRange(0.3, 1);
-var ay = randRange(0.3, 1);
+var ax = randRange(0.5, 1);
+var ay = randRange(0.5, 1);
 
 var objects = [];
 
@@ -186,6 +189,8 @@ window.setInterval(() => {
     for (var o of objects) {
         o.update();
     }
+    
+    animate();
 }, 1000 / 60);
 
 // Add new lines X times per second (1000ms / X)
@@ -198,7 +203,7 @@ function animate() {
     canvas.height = window.innerHeight;
 
     // call animate in a loop for each frame
-    requestAnimationFrame(animate);
+    // requestAnimationFrame(animate);
 
     // clear the canvas
     c.clearRect(0, 0, canvas.width, canvas.height);
@@ -208,5 +213,3 @@ function animate() {
         o.draw();
     }
 }
-
-animate();
