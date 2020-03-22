@@ -43,6 +43,7 @@
             "description": "Given a string, such as a username, generates a unique icon (Identicon), which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
+	    "demo_url": "https://willfenton.dev/identicon",
             "tags": [
                 "Python",
                 "PIL"
