@@ -17,6 +17,7 @@
             "description": "Compare your accuracy in diagnosing Skin Cancer to a trained image classification model. This was made as a demo for our club (the Undergraduate AI Society) for an AI in Medicine symposium. We took a pre-trained resnet50 model and fine-tuned it on a skin cancer dataset, then I wrote the web app to allow users to compete against it. We used fast.ai as our deep learning library of choice, and Flask for the web app. Made in collaboration with Peter Friedrich and Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
             "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
+	    "demo_url": "https://willfenton.dev/skincancer",
             "tags": [
                 "Python",
                 "Machine Learning",
@@ -42,6 +43,7 @@
             "description": "Given a string, such as a username, generates a unique icon (Identicon), which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
+	    "demo_url": "https://willfenton.dev/identicon",
             "tags": [
                 "Python",
                 "PIL"
