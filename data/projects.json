@@ -46,7 +46,8 @@
 	    "demo_url": "https://willfenton.dev/identicon",
             "tags": [
                 "Python",
-                "PIL"
+                "PIL",
+		"Flask"
             ]
         },
         {
@@ -74,7 +75,7 @@
         },
         {
             "title": "BetaStar",
-            "description": "A bot for the game StarCraft II, written in C++ using the SC2 API. The clear successor to DeepMind's AlphaStar, BetaStar is a Protoss bot, and employs a brutal Stalker rush with perfect Blink micro to overwhelm the enemy. BetaStar placed first out of 9 bots in a round robin tournament! Made for a project in my Game AI course.",
+            "description": "A bot for the game StarCraft II, written in C++ using the SC2 API. The clear successor to DeepMind's AlphaStar, BetaStar is a Protoss bot, and employs a brutal Stalker rush with perfect Blink micro to overwhelm the enemy. BetaStar placed first out of 9 bots in a round robin tournament! Made for a project in my games programming course.",
             "thumbnail_url": "data/images/thumbnail/betastar.png",
             "source_url": "https://github.com/willfenton/BetaStar",
             "video_url": "https://youtu.be/4AHjDSnfI4Q",
