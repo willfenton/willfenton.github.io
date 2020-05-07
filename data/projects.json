@@ -27,7 +27,7 @@
         },
         {
             "title": "World Generator",
-            "description": "A procedural terrain generator I built. It first generates a world using noise algorithms like Perlin noise, then renders them in 3D using Three.js. This project was a learning experience, and I learned a lot about world generation, 3D graphics, as well as web applications like Node, Typescript, and Parcel.js. This is still a work-in-progress, it looks nice but I want to improve the world generation.",
+            "description": "A procedural terrain generator I built. It first generates a world using noise algorithms like Perlin noise, then renders them in 3D using Three.js. This project was a learning experience, and I learned a lot about world generation, 3D graphics, as well as web technologies like Node, Typescript, and Parcel.js. This is still a work-in-progress, it looks nice but I want to improve the world generation.",
             "thumbnail_url": "data/images/thumbnail/world-generator.png",
             "source_url": "https://github.com/willfenton/world-generator",
             "demo_url": "https://willfenton.github.io/world-generator/",
@@ -40,8 +40,8 @@
         },
         {
             "title": "Top Album Collage",
-            "description": "A visualization of my most listened to albums. This is V2, I had previously built this using Python / PyQT but any time I wanted to see my up to date listening data I had to re-run the script to generate a new collage. It's now web-based, and it updates automatically. I've also added some additional data visible by clicking on the albums.",
-            "thumbnail_url": "data/images/thumbnail/lastfmcollage-4x4.jpg",
+            "description": "A visualization of my most listened to albums. This is V2, I had previously built this using Python / PyQT but any time I wanted to see my up to date listening data I had to re-run the script to generate a new collage. It's now web-based, and it updates automatically. I've also added some additional data visible by clicking on the albums. In the future I'd like to add more analytics.",
+            "thumbnail_url": "data/images/thumbnail/lastfmcollage-4x4.png",
             "source_url": "https://github.com/willfenton/web-last.fm-album-collage",
             "demo_url": "https://willfenton.dev/music",
             "tags": [
