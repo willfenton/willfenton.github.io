@@ -139,8 +139,7 @@ button:active {
 #projects .card .content .tag {
   display: inline-block;
   margin-bottom: 0.25em;
-  margin-right: 0.5em;
-  /* background: linear-gradient(to bottom right, #00ff99 0%, #12b372 100%); */
+  margin-right: 0.4em;
   background-color: #dfeaf1;
   font-size: 0.9rem;
   font-weight: 900;
