@@ -1,6 +1,5 @@
 {
-    "projects": [
-        {
+    "projects": [{
             "title": "SolarSim",
             "description": "A physically accurate orbital simulation of a planetary system, with a single star and any number of planets. I worked on the JavaScript code for simulating the physics, and also did the animation using HTML5 Canvas, which was also used to create the animation for my website! This project was made for the Nasa Space Apps Challenge, a space-themed hackathon, with my friends Giancarlo Pernudi, Dylan Hanna, and Jawad Rizvi.",
             "thumbnail_url": "data/images/thumbnail/solarsim.png",
@@ -17,7 +16,7 @@
             "description": "Compare your accuracy in diagnosing Skin Cancer to a trained image classification model. This was made as a demo for our club (the Undergraduate AI Society) for an AI in Medicine symposium. We took a pre-trained resnet50 model and fine-tuned it on a skin cancer dataset, then I wrote the web app to allow users to compete against it. We used fast.ai as our deep learning library of choice, and Flask for the web app. Made in collaboration with Peter Friedrich and Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/skin_cancer.png",
             "source_url": "https://github.com/UndergraduateArtificialIntelligenceClub/skin_cancer",
-	    "demo_url": "https://willfenton.dev/skincancer",
+            "demo_url": "https://willfenton.dev/skincancer",
             "tags": [
                 "Python",
                 "Machine Learning",
@@ -27,15 +26,29 @@
             ]
         },
         {
-            "title": "Last.fm Data Tool",
-            "description": "A desktop application that downloads your music listening data from Last.fm, and allows you to view and analyze it in ways which Last.fm does not allow. I made this because I was frustrated at how limited the analytics on Last.fm were, given the treasure trove of data that they have available (records of every song you listened to and when). An example of such a feature is a collage generator, which allows you to create a collage of album art from your most listened to albums. Supports multiple users. Written in Python, using PyQT for the UI.",
-            "thumbnail_url": "data/images/thumbnail/lastfm-data-tool.png",
-            "source_url": "https://github.com/willfenton/Last.fm-Data-Tool",
+            "title": "World Generator",
+            "description": "A procedural terrain generator I built. It first generates a world using noise algorithms like Perlin noise, then renders them in 3D using Three.js. This project was a learning experience, and I learned a lot about world generation, 3D graphics, as well as web applications like Node, Typescript, and Parcel.js. This is still a work-in-progress, it looks nice but I want to improve the world generation.",
+            "thumbnail_url": "data/images/thumbnail/world-generator.png",
+            "source_url": "https://github.com/willfenton/world-generator",
+            "demo_url": "https://willfenton.github.io/world-generator/",
             "tags": [
+                "TypeScript",
+                "3D Graphics",
+                "Procedual Content Generation",
+                "Parcel.js"
+            ]
+        },
+        {
+            "title": "Top Album Collage",
+            "description": "A visualization of my most listened to albums. This is V2, I had previously built this using Python / PyQT but any time I wanted to see my up to date listening data I had to re-run the script to generate a new collage. It's now web-based, and it updates automatically. I've also added some additional data visible by clicking on the albums.",
+            "thumbnail_url": "data/images/thumbnail/lastfmcollage-4x4.jpg",
+            "source_url": "https://github.com/willfenton/web-last.fm-album-collage",
+            "demo_url": "https://willfenton.dev/music",
+            "tags": [
+                "JavaScript",
                 "Python",
-                "PyQT",
                 "Last.fm",
-                "Data Analysis"
+                "Data Visualization"
             ]
         },
         {
@@ -43,11 +56,11 @@
             "description": "Given a string, such as a username, generates a unique icon (Identicon), which can be used as a profile image. The default profile images on GitHub are an example of Identicons. To generate an Identicon, we first compute the hash of the string and, using that hash, deterministically generate a list of coordinates and associated colours. Then we use the nearest neighbors algorithm to assign each pixel the colour of the point closest to it, resulting in an image like the one shown here, the Identicon for \"willfenton\". Written in Python. This project was made in an afternoon, with my friend Giancarlo Pernudi.",
             "thumbnail_url": "data/images/thumbnail/identicon.png",
             "source_url": "https://github.com/willfenton/Identicon",
-	    "demo_url": "https://willfenton.dev/identicon",
+            "demo_url": "https://willfenton.dev/identicon",
             "tags": [
                 "Python",
                 "PIL",
-		"Flask"
+                "Flask"
             ]
         },
         {
