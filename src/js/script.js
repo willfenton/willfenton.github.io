@@ -3,7 +3,7 @@ var vm = new Vue({
     el: "#vue-app",
     data: function () {
         return {
-            projects_url: "data/projects.json",
+            projects_url: "/data/projects.json",
             projects: []
         }
     },

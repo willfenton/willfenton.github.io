@@ -8,14 +8,14 @@
 
     <title>Will Fenton</title>
 
-    <link rel="icon" type="image/png" sizes="96x96" href="data/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="data/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="data/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/data/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/data/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/data/favicon/favicon-16x16.png">
 
-    <script src="src/js/script.js" defer></script>
+    <script src="/src/js/script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 
-    <link rel="stylesheet" href="src/css/site.css">
+    <link rel="stylesheet" href="/src/css/site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" crossorigin="anonymous">
 </head>
 <body>
@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="data/will-fenton-resume.pdf" target="blank">
+                    <a href="/data/will-fenton-resume.pdf" target="blank">
                         <i class="fas fa-file-pdf"></i>
                     </a>
                 </li>
@@ -45,11 +45,11 @@
                         <i class="fas fa-envelope"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="/music" target="blank">
-                        <i class="fas fa-music"></i>
-                    </a>
-                </li>
+<!--                <li>-->
+<!--                    <a href="/music" target="blank">-->
+<!--                        <i class="fas fa-music"></i>-->
+<!--                    </a>-->
+<!--                </li>-->
             </ul>
             <a id="arrow" href="#projects">
                 <i class="fas fa-angle-double-up"></i>
@@ -65,10 +65,10 @@
                     <div class="tag" v-for="tag in project.tags">{{ tag }}</div>
                     <p>{{ project.description }}</p>
                     <a v-if="Object.keys(project).includes('demo_url')" v-bind:href='project.demo_url' target="blank">
-                        <i class='fas fa-eye'></i> Live Demo 
+                        <i class='fas fa-eye'></i> Live Demo
                     </a>
                     <a v-if="Object.keys(project).includes('video_url')" v-bind:href='project.video_url' target="blank">
-                        <i class='fab fa-youtube'></i> Video 
+                        <i class='fab fa-youtube'></i> Video
                     </a>
                     <a v-if="Object.keys(project).includes('source_url')" v-bind:href="project.source_url" target="blank">
                         <i class="fas fa-code"></i> Source Code
